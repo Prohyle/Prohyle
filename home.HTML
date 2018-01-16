@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-right {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 50pt;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+a {
+    display: block;
+    width: 120px;
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px
+
+
+}
+
+a:hover, a:active {
+  background-color: darkred
+
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <img src="fitness-1270x250.jpg" alt="" style="width:100%;">
+    <div class="centered"><h1><b>Prohyle</b></h1></div>
+    <div class="bottom-right"><h2>Fitness and Training</h2></div>
+  </div> 
+
+
+
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<ul>
+  <li><a href="">Home</a></li>
+  <li><a href="">Men</a></li>
+  <li><a href="">Woman</a></li>
+
+
+
+
+
+
+
+
+
+
+</ul>
+</body>
+</html>
